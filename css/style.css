@@ -101,7 +101,7 @@ div[class*="col-"]::-moz-scrollbar-thumb {
 }
 
 input.icon-info {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0 15px;
@@ -381,7 +381,7 @@ input.icon-info {
 }
 
 #i-info {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0px 25px;
@@ -490,7 +490,7 @@ input.icon-info {
 }
 
 #label-info {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   outline: none;
@@ -513,7 +513,7 @@ input.icon-info {
 }
 
 #i-info-1 {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0px 25px;
@@ -531,7 +531,7 @@ input.icon-info {
 }
 
 #i-info-2 {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0px 25px;
@@ -549,7 +549,7 @@ input.icon-info {
 }
 
 #i-info-3 {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0px 25px;
@@ -575,7 +575,7 @@ input.icon-info {
 }
 
 .icon-search {
-  background-image: url(/img/search.svg);
+  background-image: url(../img/search.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0 15px;
@@ -807,7 +807,7 @@ a:active {
 /* #accordion rotate icon option */
 
 #accordion .panel-heading a:before {
-  background: url(/img/arrow.svg);
+  background: url(../img/arrow.svg);
   background-repeat: repeat;
   background-repeat: no-repeat;
   position: absolute;
@@ -909,7 +909,7 @@ a:active {
   }
 
   input.icon-info {
-    background-image: url(/img/info.svg);
+    background-image: url(../img/info.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: 0 15px;
@@ -924,7 +924,7 @@ a:active {
   }
 
   #i-info {
-    background-image: url(/img/info.svg);
+    background-image: url(../img/info.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: 0px 25px;
