@@ -399,7 +399,7 @@ input.icon-info {
 }
 
 .calculator-label {
-  font-size: 15.8px;
+  font-size: 16px;
   line-height: 20px;
   color: #7d2670;
   font-weight: normal;
@@ -1166,8 +1166,7 @@ a:active {
   }
 
   .calculator-label {
-    max-width: 165px;
-    max-width: 300px;
+    max-width: 100%;
   }
 
   #label-calc-s {
