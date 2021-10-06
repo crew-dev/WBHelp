@@ -1171,7 +1171,9 @@ a:active {
 
   #label-calc-s {
     margin-bottom: 55px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+    top: -14px;
+    position: relative;
   }
 
   input.icon-info {
@@ -1183,14 +1185,14 @@ a:active {
     left: -13px;
     top: 50px;
     left: 347px;
-    top: -40px;
+    top: -20px;
   }
 
   #i-info-2 {
     left: -13px;
     top: 50px;
     left: 145px;
-    top: 34px;
+    top: 18px;
   }
 
   .main-input-group {
