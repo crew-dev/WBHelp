@@ -1165,6 +1165,11 @@ a:active {
     width: 376px;
   }
 
+  div.input-group:nth-child(4) > div:nth-child(1) > label:nth-child(1) {
+    margin-bottom: 0px;
+   }
+   
+
   .calculator-label {
     max-width: 100%;
   }
