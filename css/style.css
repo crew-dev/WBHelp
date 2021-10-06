@@ -832,31 +832,31 @@ a:active {
   .container {
     padding: 0px;
     margin: 0px auto;
-}
+  }
 
-.radio-group {
-  /* padding-top: 28px; */
-  padding-top: 61px;
-}
+  .radio-group {
+    /* padding-top: 28px; */
+    padding-top: 61px;
+  }
 
-#i-info-2 {
-  left: -13px !important;
-}
+  #i-info-2 {
+    left: -13px !important;
+  }
 
-#i-info-1 {
-  left: -13px !important;
-}
+  #i-info-1 {
+    left: -13px !important;
+  }
 
 
-div.input-group:nth-child(4) > div:nth-child(1) > input:nth-child(2) {
-  margin-top: 48px;
-}
+  div.input-group:nth-child(4)>div:nth-child(1)>input:nth-child(2) {
+    margin-top: 48px;
+  }
 
-/* Элемент | file:///C:/Users/Vladislav/Documents/GitHub/WBHelp/index.html */
+  /* Элемент | file:///C:/Users/Vladislav/Documents/GitHub/WBHelp/index.html */
 
-.main-input-group > div:nth-child(1) > input:nth-child(2) {
-  margin-top: 47px;
-}
+  .main-input-group>div:nth-child(1)>input:nth-child(2) {
+    margin-top: 47px;
+  }
 
 
   .calculator__main-wrappper {
@@ -1299,28 +1299,31 @@ div.input-group:nth-child(4) > div:nth-child(1) > input:nth-child(2) {
     /* top: 24px; */
     top: 20px;
   }
+
   #i-info-1 {
     /* left: 347px; */
     /* top: -58px; */
     left: 347px !important;
     top: -33px;
   }
+
   #i-info-2 {
     /* left: 145px; */
     /* top: 34px; */
     left: 145px !important;
     top: 31px;
   }
+
   #label-calc-s {
     /* margin-bottom: 58px; */
     margin-bottom: 31px;
   }
 
 
-.input-min-group {
-  /* margin-top: 13px; */
-  margin-top: 10px;
-}
+  .input-min-group {
+    /* margin-top: 13px; */
+    margin-top: 10px;
+  }
 
   .radio-group {
     /* padding-top: 61px; */
@@ -1328,25 +1331,25 @@ div.input-group:nth-child(4) > div:nth-child(1) > input:nth-child(2) {
     padding-top: 31px;
   }
 
-/* Элемент | file:///C:/Users/Vladislav/Documents/GitHub/WBHelp/index.html */
+  /* Элемент | file:///C:/Users/Vladislav/Documents/GitHub/WBHelp/index.html */
 
-div.input-group:nth-child(4) > div:nth-child(1) > input:nth-child(2) {
-  margin-top: 30px;
-}
+  div.input-group:nth-child(4)>div:nth-child(1)>input:nth-child(2) {
+    margin-top: 30px;
+  }
 
-/* Элемент | file:///C:/Users/Vladislav/Documents/GitHub/WBHelp/index.html */
+  /* Элемент | file:///C:/Users/Vladislav/Documents/GitHub/WBHelp/index.html */
 
-.main-input-group > div:nth-child(1) > input:nth-child(2) {
-  margin-top: 30px;
-}
-
-
+  .main-input-group>div:nth-child(1)>input:nth-child(2) {
+    margin-top: 30px;
+  }
 
 
 
 
 
-  
+
+
+
 }
 
 @media screen and (max-width: 426px) {
@@ -1441,6 +1444,7 @@ div.input-group:nth-child(4) > div:nth-child(1) > input:nth-child(2) {
     /* left: 309px; */
     left: 309px !important;
   }
+
   #i-info-2 {
     /* left: 108px; */
     left: 108px !important;
@@ -1544,6 +1548,7 @@ div.input-group:nth-child(4) > div:nth-child(1) > input:nth-child(2) {
     /* left: 261px; */
     left: 261px !important;
   }
+
   #i-info-2 {
     /* left: 58px; */
     left: 58px !important;
