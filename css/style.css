@@ -1432,8 +1432,7 @@ div.input-group:nth-child(6) {
  
 
   .input-group {
-    /* width: 350px; */
-    width: 245px;
+    width: 350px;
   }
 
   .accordeon {
