@@ -372,7 +372,7 @@ input.icon-info {
   height: 50px;
   position: absolute;
   padding-left: 20px;
-  margin-top: 50px;
+  margin-top: 29px;
 }
 
 .input-price::placeholder {
@@ -480,7 +480,7 @@ input.icon-info {
 }
 
 .radio-group {
-  padding-top: 35px;
+  padding-top: 28px;
   display: flex;
 }
 
@@ -526,7 +526,7 @@ input.icon-info {
   right: 0px;
   left: -20px;
   bottom: 15px;
-  top: 30px;
+  top: 31px;
   outline: none !important;
   padding-left: 20px;
 }
@@ -544,7 +544,7 @@ input.icon-info {
   right: 0px;
   left: -22px;
   bottom: 15px;
-  top: 30px;
+  top: 32px;
   outline: none !important;
   padding-left: 20px;
 }
