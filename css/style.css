@@ -344,7 +344,7 @@ input.icon-info {
   display: flex;
   flex-direction: column;
   align-items: left;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 13px;
 }
 
