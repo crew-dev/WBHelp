@@ -950,7 +950,7 @@ a:active {
     height: 50px;
     position: absolute;
     padding-left: 14px;
-    padding-top: 0px;
+    margin-top: 50px;
   }
 
   .input-price::placeholder {
@@ -1171,9 +1171,7 @@ a:active {
 
   #label-calc-s {
     margin-bottom: 55px;
-    margin-bottom: 0px;
-    top: -14px;
-    position: relative;
+    margin-bottom: 40px;
   }
 
   input.icon-info {
@@ -1185,14 +1183,14 @@ a:active {
     left: -13px;
     top: 50px;
     left: 347px;
-    top: -20px;
+    top: -40px;
   }
 
   #i-info-2 {
     left: -13px;
     top: 50px;
     left: 145px;
-    top: 18px;
+    top: 34px;
   }
 
   .main-input-group {
