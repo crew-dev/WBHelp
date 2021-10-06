@@ -101,7 +101,7 @@ div[class*="col-"]::-moz-scrollbar-thumb {
 }
 
 input.icon-info {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0 15px;
@@ -381,7 +381,7 @@ input.icon-info {
 }
 
 #i-info {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0px 25px;
@@ -490,7 +490,7 @@ input.icon-info {
 }
 
 #label-info {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   outline: none;
@@ -513,7 +513,7 @@ input.icon-info {
 }
 
 #i-info-1 {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0px 25px;
@@ -531,7 +531,7 @@ input.icon-info {
 }
 
 #i-info-2 {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0px 25px;
@@ -549,7 +549,7 @@ input.icon-info {
 }
 
 #i-info-3 {
-  background-image: url(/img/info.svg);
+  background-image: url(../img/info.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0px 25px;
@@ -575,7 +575,7 @@ input.icon-info {
 }
 
 .icon-search {
-  background-image: url(/img/search.svg);
+  background-image: url(../img/search.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0 15px;
@@ -807,7 +807,7 @@ a:active {
 /* #accordion rotate icon option */
 
 #accordion .panel-heading a:before {
-  background: url(/img/arrow.svg);
+  background: url(../img/arrow.svg);
   background-repeat: repeat;
   background-repeat: no-repeat;
   position: absolute;
@@ -909,7 +909,7 @@ a:active {
   }
 
   input.icon-info {
-    background-image: url(/img/info.svg);
+    background-image: url(../img/info.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: 0 15px;
@@ -924,7 +924,7 @@ a:active {
   }
 
   #i-info {
-    background-image: url(/img/info.svg);
+    background-image: url(../img/info.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: 0px 25px;
@@ -1152,7 +1152,7 @@ a:active {
 @media screen and (max-width: 450px) {
   .input-group {
     flex-direction: column;
-    width: 370px;
+    width: 350px;
   }
 
   .calculator__wrapper {
@@ -1428,122 +1428,172 @@ div.input-group:nth-child(6) {
 }
 
 @media screen and (max-width: 375px) {
-  .input-calc {
-    /* width: 340px; */
-    width: 280px;
-  }
-  .calculator__main > input:nth-child(1) {
-    /* margin-left: 16px; */
-    margin-left: 85px;
-  }
-  .tooltip .tooltiptext {
-    /* left: 142px; */
-    left: 166px;
-    left: 130px;
-  }
-  .calculator__title {
-    /* margin-left: 16px; */
-    margin-left: 85px;
-  }
-  div.input-group:nth-child(4) {
-    /* margin-left: 18px; */
-    margin-left: 85px;
-  }
-  .input-price {
-    /* width: 340px; */
-    width: 280px;
-  }
-  #i-info-1 {
-    /* left: 309px; */
-    left: 248px;
-  }
-  .tooltip .tooltiptext-2 {
-    /* left: 138px; */
-    left: 74px;
-  }
-  #i-info-2 {
-    /* left: 108px; */
-    left: 47px;
-  }
-  .radio-group {
-    /* margin-left: 18px; */
-    margin-left: 85px;
-  }
-  #i-info-3 {
-    /* left: 309px; */
-    left: 251px;
-  }
-  div.input-group:nth-child(6) {
-    /* margin-left: 18px; */
-    margin-left: 85px;
-  }
-  .form-group-c {
-    /* margin-left: 18px; */
-    margin-left: 85px;
+ 
+
+  .input-group {
+    /* width: 350px; */
+    width: 245px;
   }
 
-  .tooltip .tooltiptext-2::after {
-    /* left: 90%; */
-    left: 92%;
-  }
-  .tooltip .tooltiptext-3 {
-    /* width: 200px; */
-    width: 135px;
-  }
-
-  div.input-group:nth-child(6) {
-    /* flex-direction: row; */
-    flex-direction: column;
-  }
-
-  .input-group-setting {
-    /* margin-left: 20px; */
-    margin-left: 0px;
-    margin-bottom: 20px;
-  }
   .accordeon {
     /* width: 380px; */
-    width: 293px;
-    margin-left: 85px;
+    width: 330px;
   }
   .accordeon__search > input:nth-child(1) {
     /* width: 365px; */
-    width: 282px;
+    width: 318px;
   }
   .icon-search {
     /* left: 320px; */
-    left: 238px;
+    left: 285px;
   }
 
+.accordeon__search {
+  /* width: 93%; */
+  width: 96%;
+}
 
-  .tooltip .tooltiptext {
-    /* left: 130px; */
-    left: 154px;
+  .radio-group {
+    /* margin-left: 18px; */
+    margin-left: 26px;
   }
-  .tooltip .tooltiptext-2 {
-    /* left: 74px; */
-    left: 72px;
+  .calculator__title {
+    /* max-width: 245px; */
+    max-width: 62px;
   }
-  .tooltip .tooltiptext-3 {
-    /* width: 135px; */
-    width: 200px;
+  .input-calc {
+    /* width: 340px; */
+    width: 289px;
   }
-  #i-info-2 {
-    left: 47px;
-  }
-
   input.icon-info {
-    left: 335px;
+    /* left: 324px; */
+    left: 281px;
   }
-
+  .tooltip .tooltiptext {
+    /* left: 142px; */
+    left: 76px;
+  }
+  .input-price {
+    /* width: 340px; */
+    width: 295px;
+  }
   .tooltip .tooltiptext-3 {
     /* left: -63px; */
-    left: -121px;
+    left: -104px;
+  }
+  .input-setting {
+    /* width: 97px; */
+    width: 88px;
+  }
+
+.calculator__info {
+  /* padding: 50px 50px 50px 50px; */
+  padding: 50px 33px 25px 50px;
+}
+
+.calculator__main > input:nth-child(1) {
+  /* padding-left: 5px; */
+}
+
+.tooltip {
+  /* position: relative; */
+  /* display: inline-block; */
+}
+
+  .tooltip .tooltiptext-2 {
+    /* left: 138px; */
+    left: 100px;
+  }
+  #i-info-1 {
+    /* left: 309px; */
+    left: 265px;
+  }
+  #i-info-2 {
+    /* left: 108px; */
+    left: 64px;
+  }
+  #i-info-3 {
+    /* left: 309px; */
+    left: 266px;
   }
   .tooltip .tooltiptext-5 {
     /* left: 138px; */
-    left: 80px;
+    left: 94px;
   }
+
+  .tooltip .tooltiptext-5::after {
+    /* left: 90%; */
+    left: 91%;
+  }
+
+
+  .input-setting {
+    /* width: 88px; */
+    width: 86px;
+  }
+
+  .accordeon {
+    /* width: 330px; */
+    width: 380px;
+    width: 314px;
+  }
+  .accordeon__search > input:nth-child(1) {
+    /* width: 318px; */
+    width: 293px;
+  }
+  .icon-search {
+    /* left: 285px; */
+    left: 320px;
+    left: 270px;
+  }
+  .input-setting {
+    /* width: 86px; */
+    width: 85px;
+  }
+  .input-price {
+    /* width: 295px; */
+    width: 290px;
+  }
+  #i-info-3 {
+    /* left: 309px; */
+    /* left: 266px; */
+    left: 308px;
+    left: 260px;
+  }
+  #i-info-2 {
+    /* left: 64px; */
+    left: 58px;
+  }
+  #i-info-1 {
+    /* left: 265px; */
+    left: 261px;
+  }
+  .tooltip .tooltiptext-2 {
+    /* left: 100px; */
+    left: 91px;
+  }
+  .tooltip .tooltiptext-3 {
+    /* left: -104px; */
+    left: -114px;
+  }
+  .tooltip .tooltiptext-5 {
+    /* left: 94px; */
+    left: 87px;
+  }
+  input.icon-info {
+    /* left: 281px; */
+    left: 277px;
+  }
+  .tooltip .tooltiptext {
+    /* left: 76px; */
+    left: 96px;
+  }
+  .calculator__title {
+    /* max-width: 62px; */
+    max-width: 210px;
+  }
+
+
 
   
 }
