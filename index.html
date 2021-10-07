@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wbhelp Calculator</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             <div class="calculator__wrapper">
                 <div class="calculator__main-wrappper">
                     <div class="calculator__main">
-                        <input type="text" placeholder="Категория товара" id="input-categ" class="input-calc calc-category">
+                        <input type="text" placeholder="Категория товара" id="input-categ" class="input-calc calc-category" >
                         <div class="tooltip">
                             <input type="button" value="" class="icon-info">
                             <span class="tooltiptext">Информация об этом поле.
@@ -29,7 +30,7 @@
                         <div class="input-group">
                             <div class="input-min-group">
                                 <label class="calculator-label" id="label-calc-s" for="">Себестоимость (руб/шт)</label>
-                                <input class="input-price" type="text" placeholder="999 999.99 ₽ ">
+                                <input class="input-price St" type="text" placeholder="999 999.99 ₽ ">
                             </div>
                             <div class="tooltip">
                                 <input id="i-info-1" type="button" value="" class="tooltip">
@@ -41,7 +42,7 @@
                                 <div class="input-min-group">
                                     <label class="calculator-label" id="label-calc-s" for="">Цена на выходе
                                         (руб/шт)</label>
-                                    <input class="input-price" type="text" placeholder="999 999.99 ₽ ">
+                                    <input class="input-price Sp" type="text" placeholder="999 999.99 ₽ ">
                                 </div>
                                 <div class="tooltip">
                                     <input id="i-info-2" type="button" value="" class="tooltip">
@@ -67,7 +68,7 @@
                                     <div class="calculator__radio-group">
                                         <div class="form-group">
                                             <label class="radio-w">
-                                                <input type="radio" name="payment" value="paypal"
+                                                <input type="radio" name="payment" value="1"
                                                     class="real-radio-btn">
                                                 <span class="custom-radio-btn"></span>
                                                 <span class="text-radio">FBO</span>
@@ -75,14 +76,14 @@
                                         </div>
                                         <div class="form-group">
                                             <label class="radio-w">
-                                                <input type="radio" name="payment" value="card" class="real-radio-btn">
+                                                <input type="radio" name="payment" value="2" class="real-radio-btn">
                                                 <span class="custom-radio-btn"></span>
                                                 <span class="text-radio">FBS</span>
                                             </label class="radio-w">
                                         </div>
                                         <div class="form-group">
                                             <label class="radio-w">
-                                                <input type="radio" name="payment" value="card" class="real-radio-btn">
+                                                <input type="radio" name="payment" value="3" class="real-radio-btn">
                                                 <span class="custom-radio-btn"></span>
                                                 <span class="text-radio">DBS</span>
                                             </label class="radio-w">
@@ -93,7 +94,7 @@
                             <div class="input-min-sidegroup">
                                 <div class="input-min-group">
                                     <label class="calculator-label" id="label-calc" for="">Количество (шт)</label>
-                                    <input class="input-price" type="text" placeholder="999 999.99 ₽ ">
+                                    <input class="input-price Q" type="text" placeholder="999 999.99 ₽ ">
                                 </div>
                                 <div class="tooltip">
                                     <input id="i-info-3" id="label-info" type="button" value="">
@@ -106,15 +107,15 @@
                         <div class="input-group">
                             <div class="input-group-setting" id="first_input-setting">
                                 <label class="calculator-label" for="">Длина (см):</label>
-                                <input class="input-setting" type="text" placeholder="999">
+                                <input class="input-setting x" type="text" placeholder="999">
                             </div>
                             <div class="input-group-setting">
                                 <label class="calculator-label" for="">Ширина (см):</label>
-                                <input class="input-setting" type="text" placeholder="999">
+                                <input class="input-setting y" type="text" placeholder="999">
                             </div>
                             <div class="input-group-setting">
                                 <label class="calculator-label" for="">Высота (см):</label>
-                                <input class="input-setting" type="text" placeholder="999">
+                                <input class="input-setting z" type="text" placeholder="999">
                             </div>
                         </div>
                         <div class="form-group-c">
@@ -123,14 +124,14 @@
                             <div class="form-group-w">
                                 <div class="form-group">
                                     <label class="radio-w">
-                                        <input type="radio" name="payment" value="card" class="real-radio-btn">
+                                        <input type="radio" name="payment2" value="1" class="real-radio-btn">
                                         <span class="custom-radio-btn"></span>
                                         <span class="text-radio">6%</span>
                                     </label class="radio-w">
                                 </div>
                                 <div class="form-group">
                                     <label class="radio-w">
-                                        <input type="radio" name="payment" value="card" class="real-radio-btn">
+                                        <input type="radio" name="payment2" value="2" class="real-radio-btn">
                                         <span class="custom-radio-btn"></span>
                                         <span class="text-radio">Процент от прибыли</span>
                                     </label class="radio-w">
@@ -138,25 +139,25 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordeon">
-                        <div class="accordeon__search">
+                    <div class="accordeon op">
+                        <div class="accordeon__search ">
                             <input type="text" placeholder="Поиск" id="input-search" class="input-calc calc-category">
-                            <input type="button" value="" class="icon-search">
+                            <input type="button" value="" class="icon-search" id="input-search-btn">
                         </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
-                                <div class="panel">
-                                    <div class="panel-heading" role="tab" id="headingOne">
-                                        <h4 class="panel-title">
+                        <div class=" col-md-6 col-sm-6 accordeon__content" id="accordeon__content">
+                            <div class=" panel-group wrap " id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel ">
+                                    <div class="panel-heading " role="tab" id="headingOne">
+                                        <h4 class="panel-title ">
                                             <a role="button" data-toggle="collapse" data-parent="#accordion"
-                                                href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
                                                 Категория товара 1
                                             </a>
                                         </h4>
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
                                         aria-labelledby="headingOne">
-                                        <div class="panel-body">
+                                        <div class="panel-body ">
                                             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                                             richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
                                             dolor brunch.
@@ -371,6 +372,8 @@
         </div>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/script.js"></script>
 
 </body>
